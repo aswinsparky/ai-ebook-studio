@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database & Generated Files
+*.db
+*.sqlite3
+backend/ebook_studio.db
+backend/test_ebook_studio.db
+backend/exports/
+backend/uploads/
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+*.pem
+*.key
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Playwright & Testing
+test-results/
+playwright-report/
+playwright/.cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
